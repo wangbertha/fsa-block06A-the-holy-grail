@@ -10,3 +10,11 @@ section,
 footer {
     border: 1px solid #000;
 }
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+header,
+footer {
+    grid-column: 1 / 4;
+}
