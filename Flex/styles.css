@@ -10,9 +10,17 @@ section,
 footer {
     border: 1px solid #000;
 }
+header {
+    height: 50px;
+    line-height: 50px;
+}
 .main {
     display: flex;
 }
 .sidebar {
     width: 500px;
+}
+footer {
+    height: 30px;
+    line-height: 30px;
 }
