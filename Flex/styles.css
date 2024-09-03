@@ -10,3 +10,9 @@ section,
 footer {
     border: 1px solid #000;
 }
+.main {
+    display: flex;
+}
+.sidebar {
+    width: 500px;
+}
