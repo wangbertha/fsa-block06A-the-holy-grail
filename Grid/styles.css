@@ -29,3 +29,7 @@ header {
 footer {
     line-height: 30px;
 }
+.sidebar,
+.content {
+    padding: 10px;
+}
