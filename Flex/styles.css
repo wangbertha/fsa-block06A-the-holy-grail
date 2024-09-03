@@ -32,6 +32,9 @@ header {
 .sidebar {
     width: 500px;
 }
+.main > * {
+    padding: 10px;
+}
 footer {
     height: 30px;
     line-height: 30px;
