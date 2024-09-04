@@ -5,8 +5,8 @@ html * {
     font-family: Arial, Helvetica, sans-serif;
 }
 header,
-aside,
-section,
+.sidebar,
+main,
 footer {
     border: 1px solid #000;
 }

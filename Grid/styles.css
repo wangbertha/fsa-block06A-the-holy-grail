@@ -8,10 +8,7 @@ html * {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-header,
-aside,
-section,
-footer {
+body > * {
     border: 1px solid #000;
 }
 body {
@@ -30,6 +27,6 @@ footer {
     line-height: 30px;
 }
 .sidebar,
-.content {
+main {
     padding: 10px;
 }
