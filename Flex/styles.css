@@ -1,3 +1,7 @@
+html,
+body {
+    height: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +16,6 @@ footer {
 }
 body {
     padding: 0 10px;
-}
-html,
-body {
-    height: 100%;
-}
-body {
     display: flex;
     flex-direction: column;
 }
@@ -25,14 +23,14 @@ header {
     height: 50px;
     line-height: 50px;
 }
-.main {
+.middle {
     display: flex;
     flex: 1;
 }
 .sidebar {
     width: 500px;
 }
-.main > * {
+.middle > * {
     padding: 10px;
 }
 footer {
