@@ -2,16 +2,14 @@ html,
 body {
     height: 100%;
 }
-html * {
+* {
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-header,
-aside,
-section,
-footer {
+body > * {
     border: 1px solid #000;
 }
 body {
@@ -21,7 +19,7 @@ body {
 }
 header,
 footer {
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
 }
 header {
     line-height: 50px;
@@ -30,6 +28,6 @@ footer {
     line-height: 30px;
 }
 .sidebar,
-.content {
+main {
     padding: 10px;
 }
